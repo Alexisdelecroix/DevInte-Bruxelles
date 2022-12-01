@@ -1,17 +1,18 @@
 .conteneurform{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid black;
     padding: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    width: 80%;
+    margin-top: 100px;
 .conteneur{
     margin-left: 50px;
     margin-right: 50px;
     line-height: 1.6rem;
-    
-    
+
     p{
         text-align: center;
     }.picto{
