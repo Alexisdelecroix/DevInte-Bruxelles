@@ -1,7 +1,16 @@
+
+
+.burger{
+    // z-index: 20;
+    // background-color: aliceblue;
+    
+    display: none;
+
+}
 nav {
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    // margin-top: 100px;
+    // margin-left: auto;
+    // margin-right: auto;
   display: flex;
   justify-content: space-evenly;
 //   flex-wrap: wrap;
@@ -18,6 +27,7 @@ nav {
     border-left: 2px solid white;
     border-right: 2px solid white;
     border-radius: 5%;
+    
     a {
       margin: auto;
       color: white;
@@ -33,4 +43,50 @@ nav {
       
     }
   }
+}
+
+@media screen and (max-width: 1200px) {
+    .burger {
+        
+        display: block;
+    }
+    
+    nav {
+      display: flex;
+      flex-direction: column;
+    //   flex-wrap: wrap;
+    max-width: 160px;
+      transform: translateX(-90%);
+      background-color: rgb(0, 0, 0);
+      height: 100%;
+      
+      .elementnav {
+        color: white;
+        height: 80%;
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+        // width: 130px;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-radius: 5%;
+        a {
+          margin: auto;
+          color: white;
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          row-gap: 5px;
+          align-items: center;
+        }
+        &:hover {
+          background-color: rgb(76, 63, 213);
+          
+        }
+      }
+    }
+    nav.open{
+transform: translateX(0%);
+    }
 }
