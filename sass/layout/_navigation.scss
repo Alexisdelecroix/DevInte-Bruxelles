@@ -1,0 +1,108 @@
+
+
+.burger{
+    // z-index: 20;
+    // background-color: aliceblue;
+    display: none;
+
+}
+nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
+  background-color: rgb(0, 0, 0);
+  height: auto;
+  img{
+    width: 155px;
+    height: 65px;
+   object-fit: cover;
+   align-content: center;
+  //  padding: 10px;
+  margin: 10px;
+  };
+  #logosize{
+    width: 155px;
+    height: auto;
+    object-fit: cover;
+    line-height: 0;
+  }
+  .elementnav {
+    color: white;
+    height: 80%;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 120px;
+    // border-left: 2px solid white;
+    // border-right: 2px solid white;
+    border-radius: 5%;
+    
+    a {
+      line-height: 1.5rem;
+      margin: auto;
+      color: white;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 5px;
+      align-items: center;
+      font-family: 'Timmana', Verdana, Geneva, Tahoma, sans-serif;
+    }
+    &:hover {
+      background-color: purple;
+      // background-color: yellow;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .burger{
+        position: float;
+        display: block;
+    }
+    
+    nav {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+    margin-right: 0;
+    //   flex-wrap: wrap;
+    max-width: 160px;
+      transform: translateX(-95%);
+      background-color: rgb(0, 0, 0);
+      height: 100%;
+      
+      .elementnav {
+        color: white;
+        height: 80%;
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+        // width: 130px;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-radius: 5%;
+        a {
+          margin: auto;
+          color: white;
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          row-gap: 5px;
+          align-items: center;
+        }
+        
+      }
+    }
+    .menunav.open{
+transform: translateX(0%);
+    }
+}
