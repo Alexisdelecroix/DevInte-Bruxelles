@@ -33,18 +33,16 @@ nav {
   }
   .elementnav {
     color: white;
-    height: 80%;
     display: flex;
     margin: 10px;
-    padding: 10px;
     width: 120px;
     // border-left: 2px solid white;
     // border-right: 2px solid white;
     border-radius: 5%;
-    
     a {
       line-height: 1.5rem;
       margin: auto;
+      margin-bottom: 5px;
       color: white;
       text-decoration: none;
       display: flex;
