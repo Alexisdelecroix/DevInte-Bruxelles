@@ -103,7 +103,11 @@ main{
     opacity: 1;
 }
 
+
+
+
 @media screen and (max-width: 390px) {
+    
     main{
         .activite-title{
             font-size: 30px;
@@ -141,5 +145,8 @@ main{
         text-decoration: none;
         border-radius: 20px;
     }
+}
+header{
+    display: none;
 }
 }
