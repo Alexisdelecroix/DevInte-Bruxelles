@@ -1,9 +1,19 @@
+#titrenew{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Timmana', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 .owl-carousel{
     max-width: 90%;
     margin: auto;
     
     .items{
-        max-width: 300px;
+        // max-width: 300px;
+        img{
+            max-height: 200px;
+        }
         .un_hover {
             box-sizing: border-box;
             width: 100%;
