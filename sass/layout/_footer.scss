@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     padding: 20px;
     padding-bottom: 40px;
+    align-items: center;
 
 
 
@@ -37,17 +38,20 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 0px 50px 0px 50px;
+    justify-content: space-between;
 
 }
 .lienzero
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 50%;
-
+    text-align: center;
     
-    
+  
 }
+
+
 .lien
 {
     display: flex;
