@@ -7,7 +7,7 @@
 
 }
 nav {
-    margin-top: 100px;
+    // margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
   display: flex;
@@ -16,6 +16,10 @@ nav {
   width: 90%;
   background-color: rgb(0, 0, 0);
   height: auto;
+  img{
+    width: 150px;
+    // height: 
+  };
   #logosize{
     width: 155px;
     height: auto;
@@ -47,56 +51,53 @@ nav {
     }
     &:hover {
       background-color: purple;
-      
+      // background-color: yellow;
     }
   }
 }
 
-// @media screen and (max-width: 400px) {
-//     .burger open{
-        
-//         display: block;
-//     }
+@media screen and (max-width: 400px) {
+    .burger{
+        position: float;
+        display: block;
+    }
     
-//     nav {
-//       margin-top: 50px;
-//       display: flex;
-//       flex-direction: column;
-//       margin-left: 0;
-//     margin-right: 0;
-//     //   flex-wrap: wrap;
-//     max-width: 160px;
-//       transform: translateX(-90%);
-//       background-color: rgb(0, 0, 0);
-//       height: 100%;
+    nav {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+    margin-right: 0;
+    //   flex-wrap: wrap;
+    max-width: 160px;
+      transform: translateX(-95%);
+      background-color: rgb(0, 0, 0);
+      height: 100%;
       
-//       .elementnav {
-//         color: white;
-//         height: 80%;
-//         display: flex;
-//         margin: 10px;
-//         padding: 10px;
-//         // width: 130px;
-//         border-left: 2px solid white;
-//         border-right: 2px solid white;
-//         border-radius: 5%;
-//         a {
-//           margin: auto;
-//           color: white;
-//           text-decoration: none;
-//           display: flex;
-//           justify-content: center;
-//           flex-direction: column;
-//           row-gap: 5px;
-//           align-items: center;
-//         }
-//         &:hover {
-//           background-color: rgb(76, 63, 213);
-          
-//         }
-//       }
-//     }
-//     nav.burgeropen{
-// transform: translateX(0%);
-//     }
-// }
+      .elementnav {
+        color: white;
+        height: 80%;
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+        // width: 130px;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-radius: 5%;
+        a {
+          margin: auto;
+          color: white;
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          row-gap: 5px;
+          align-items: center;
+        }
+        
+      }
+    }
+    .menunav.open{
+transform: translateX(0%);
+    }
+}
