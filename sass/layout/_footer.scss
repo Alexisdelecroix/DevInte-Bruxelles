@@ -40,6 +40,7 @@
     flex-wrap: wrap;
     padding: 0px 50px 0px 50px;
     justify-content: space-between;
+    width: 35%;
 
 }
 .lienzero
@@ -57,6 +58,7 @@
 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     font-size: 1.5em;
     a{
         line-height: 40px;
@@ -84,6 +86,7 @@
     {
       font-size: 40px;
     }
+   
 }
 
 
@@ -98,6 +101,10 @@ a
 {
     color: white;
     text-decoration: none;
+    &:hover 
+    {
+     color: purple;
+    }
 }
 
 .adresse
