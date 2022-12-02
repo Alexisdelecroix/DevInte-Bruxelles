@@ -1,140 +1,64 @@
-
-.footercontent
-{
+.footercontent{
+    display: flex;
+    flex-wrap: wrap;
     background-color: black;
-    color:white;
-    height: auto;
-    width: 100%;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-    padding-bottom: 40px;
-    align-items: center;
-
-
-
-.logo
-{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    // margin: 20px;
-    margin-left: 25px;
-    width: 350px;
-    img{
-        width: 120px;
-        margin: 10px;
-    }
-}
-
-
-
-.map
-{
-    display: flex;
-    flex-direction: column;
-    // flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-    
-    
-}
-
-.centre
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 0px 50px 0px 50px;
-    justify-content: space-between;
-    // width: 35%;
-
-}
-.lienzero
-{
-    display: flex;
-    justify-content: space-between;
-    height: 50%;
-    text-align: center;
-    
-  
-}
-
-
-.lien
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-size: 1.5em;
-    a{
-        line-height: 40px;
-    }
-}
-
-.liendeux
-{
-    display:flex;
-    flex-direction: column;
-    font-size: 1.5em;
-    a{
-        line-height: 40px;
-    }
-}
-
-.reseau
-{
-
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
-    height: 30%;
-    .icon
-    {
-      font-size: 40px;
-    }
-   
-}
-
-
-.logodeux
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-a 
-{
     color: white;
-    text-decoration: none;
-    &:hover 
-    {
-     color: purple;
-    }
-}
-
-.adresse
-{
-    text-align: center;
-    margin-top: 10px;
-    
-}
-
-}
-
-@media screen and (max-width: 391px) {
-
-    .footercontent {
-        flex-direction: column;
-        
-    }
+    gap: 50px;
+    padding: 10px;
+    font-family: 'Timmana', Verdana, Geneva, Tahoma, sans-serif;
     .centre{
-        
+        // border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        max-width: 300px;
+        .reseau{
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 20px;
+            font-size: 40px;
+            i{
+                color: white;
+                &:hover{
+                    color: purple;
+                }
+            }
+            
+        }
+        .lien{
+            display: flex;
+            flex-wrap: wrap;
+            a{
+                text-decoration: none;
+                color: white;
+                width: 140px;
+                line-height: 40px;
+                &:hover{
+                    color: purple;
+                }
+            }
+        }
     }
-    
-    
+    .map{
+        // border: 1px solid white;
+        max-width: 390px;
+        .adresse{
+            text-align: center;
+            padding: 10px;
+        }
+    }
+    .logo{
+        // border: 1px solid white;
+        display: flex;
+        max-width: 390px;
+        .logoun img, .logodeux img{
+            max-width: 150px; 
+        }
+        .logodeux{
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }
