@@ -20,22 +20,23 @@
         <div class="conteneur">
     <div>
         <label for="name">Votre Nom : (obligatoire)</label> <br>
-        <input type="text" id="name" name="user_name">
+        <input type="text" id="name" name="user_name" placeholder="Lhermite" required
+        pattern="[a-zA-ZÀ-ÿ\-]+$">
     </div>
     <div>
         <label for="email">Votre e-mail : (obligatoire)</label> <br>
-        <input type="email" id="email" name="user_email">
+        <input type="email" id="email" name="user_email" placeholder="d-alexis@hotmail.fr" required>
     </div>
     <div>
         <label for="name">Sujet :</label> <br>
-        <input type="text" id="name" name="user_name" >
+        <input type="text" id="name" name="user_name" required>
     </div>
     <div>
         <label for="name">Votre message : </label> <br>
-        <textarea name="" id="" cols="50" rows="5"></textarea> <br>
+        <textarea name="" id="" cols="50" rows="5" required></textarea> <br>
 <div class="btn">
-        <input type="submit">
-        <input type="reset">
+        <input  type="submit">
+        <input  type="reset">
     </div>
 
     </div>
