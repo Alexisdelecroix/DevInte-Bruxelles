@@ -1,0 +1,105 @@
+
+.footercontent
+{
+    background-color: black;
+    color:white;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-bottom: 40px;
+
+
+
+.logo
+{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.map
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+.centre
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 50px 0px 50px;
+
+}
+.lienzero
+{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+
+    
+    
+}
+.lien
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    a{
+        line-height: 40px;
+    }
+}
+
+.liendeux
+{
+    display:flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    a{
+        line-height: 40px;
+    }
+}
+
+.reseau
+{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    height: 30%;
+    .icon
+    {
+      font-size: 40px;
+    }
+}
+
+
+.logodeux
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.adresse
+{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+}
