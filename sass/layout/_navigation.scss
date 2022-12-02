@@ -7,7 +7,8 @@
 
 }
 nav {
-    // margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
   display: flex;
@@ -18,10 +19,11 @@ nav {
   height: auto;
   img{
     width: 155px;
-    height: 90px;
+    height: 65px;
    object-fit: cover;
    align-content: center;
-   padding: 10px;
+  //  padding: 10px;
+  margin: 10px;
   };
   #logosize{
     width: 155px;
